@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0674EC93283FC44200402002 /* MaskPixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674EC92283FC44200402002 /* MaskPixellate.swift */; };
+		0674EC94283FC44200402002 /* MaskPixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0674EC92283FC44200402002 /* MaskPixellate.swift */; };
+		0674EC98283FC48900402002 /* MaskPixellateWatch_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0674EC95283FC48800402002 /* MaskPixellateWatch_GLES.fsh */; };
+		0674EC99283FC48900402002 /* MaskPixellateWatch_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0674EC95283FC48800402002 /* MaskPixellateWatch_GLES.fsh */; };
+		0674EC9A283FC48900402002 /* MaskPixellate_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0674EC96283FC48900402002 /* MaskPixellate_GLES.fsh */; };
+		0674EC9B283FC48900402002 /* MaskPixellate_GLES.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0674EC96283FC48900402002 /* MaskPixellate_GLES.fsh */; };
+		0674EC9C283FC48900402002 /* MaskPixellate_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0674EC97283FC48900402002 /* MaskPixellate_GL.fsh */; };
+		0674EC9D283FC48900402002 /* MaskPixellate_GL.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0674EC97283FC48900402002 /* MaskPixellate_GL.fsh */; };
 		BC09239E1C92658200A2ADFA /* ShaderProgram_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09239D1C92658200A2ADFA /* ShaderProgram_Tests.swift */; };
 		BC0923A11C92661D00A2ADFA /* Pipeline_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09239F1C9265A600A2ADFA /* Pipeline_Tests.swift */; };
 		BC0923A21C92664900A2ADFA /* Framebuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB279EB1C8D11630013E213 /* Framebuffer.swift */; };
@@ -368,6 +376,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0674EC92283FC44200402002 /* MaskPixellate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaskPixellate.swift; path = Source/Operations/MaskPixellate.swift; sourceTree = "<group>"; };
+		0674EC95283FC48800402002 /* MaskPixellateWatch_GLES.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = MaskPixellateWatch_GLES.fsh; path = Source/Operations/MaskPixellateWatch_GLES.fsh; sourceTree = "<group>"; };
+		0674EC96283FC48900402002 /* MaskPixellate_GLES.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = MaskPixellate_GLES.fsh; path = Source/Operations/MaskPixellate_GLES.fsh; sourceTree = "<group>"; };
+		0674EC97283FC48900402002 /* MaskPixellate_GL.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = MaskPixellate_GL.fsh; path = Source/Operations/MaskPixellate_GL.fsh; sourceTree = "<group>"; };
 		BC09239D1C92658200A2ADFA /* ShaderProgram_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShaderProgram_Tests.swift; path = Tests/ShaderProgram_Tests.swift; sourceTree = SOURCE_ROOT; };
 		BC09239F1C9265A600A2ADFA /* Pipeline_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pipeline_Tests.swift; path = Tests/Pipeline_Tests.swift; sourceTree = SOURCE_ROOT; };
 		BC1E12F41C9F2FD7008F844F /* ThreeInput.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = ThreeInput.vsh; path = Source/Operations/Shaders/ThreeInput.vsh; sourceTree = "<group>"; };
@@ -1144,6 +1156,10 @@
 			isa = PBXGroup;
 			children = (
 				BCB279E71C8D0BA30013E213 /* BasicOperation.swift */,
+				0674EC92283FC44200402002 /* MaskPixellate.swift */,
+				0674EC97283FC48900402002 /* MaskPixellate_GL.fsh */,
+				0674EC96283FC48900402002 /* MaskPixellate_GLES.fsh */,
+				0674EC95283FC48800402002 /* MaskPixellateWatch_GLES.fsh */,
 				BC91EDCE1C91E92000C704A8 /* OneInput.vsh */,
 				BC1E12F51C9F2FD7008F844F /* TwoInput.vsh */,
 				BC1E12F41C9F2FD7008F844F /* ThreeInput.vsh */,
@@ -1309,6 +1325,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0674EC9C283FC48900402002 /* MaskPixellate_GL.fsh in Resources */,
+				0674EC98283FC48900402002 /* MaskPixellateWatch_GLES.fsh in Resources */,
+				0674EC9A283FC48900402002 /* MaskPixellate_GLES.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1323,6 +1342,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0674EC9D283FC48900402002 /* MaskPixellate_GL.fsh in Resources */,
+				0674EC99283FC48900402002 /* MaskPixellateWatch_GLES.fsh in Resources */,
+				0674EC9B283FC48900402002 /* MaskPixellate_GLES.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1430,6 +1452,7 @@
 				BC7FD1911CB1D2A300037949 /* ImageGenerator.swift in Sources */,
 				BC7FD1201CB079B200037949 /* SaturationBlend.swift in Sources */,
 				BCA4E2491CC3EF26007B51BA /* ColourFASTFeatureDetection.swift in Sources */,
+				0674EC93283FC44200402002 /* MaskPixellate.swift in Sources */,
 				BC7FD0FD1CB06E0000037949 /* Position.swift in Sources */,
 				BCFF46A61CB7428C00A0C521 /* OperationGroup.swift in Sources */,
 				BC7FD10A1CB077AD00037949 /* DifferenceBlend.swift in Sources */,
@@ -1612,6 +1635,7 @@
 				BC9E356F1E5256D000B8604F /* HighlightsAndShadows.swift in Sources */,
 				BC9E35AA1E52578900B8604F /* Halftone.swift in Sources */,
 				BC9E35961E52574A00B8604F /* ImageBuffer.swift in Sources */,
+				0674EC94283FC44200402002 /* MaskPixellate.swift in Sources */,
 				BC9E35831E52571100B8604F /* LocalBinaryPattern.swift in Sources */,
 				BC9E35C71E5257E700B8604F /* ExclusionBlend.swift in Sources */,
 				BC9E35A31E52577300B8604F /* KuwaharaFilter.swift in Sources */,

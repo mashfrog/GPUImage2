@@ -19,6 +19,11 @@ public struct ShaderUniformSettings {
     
     public init() {
     }
+    
+    public subscript(index:String) -> [Int]? {
+            get { return uniformValues[index] as? [Int]}
+            set(newValue) { uniformValues[index] = newValue }
+        }
 
     public subscript(index:String) -> Float? {
         get { return uniformValues[index] as? Float}
@@ -58,6 +63,7 @@ public struct ShaderUniformSettings {
     public func restoreShaderSettings(_ shader:ShaderProgram) {
         for (uniform, value) in uniformValues {
             switch value {
+            case let value as [Int]: shader.setValue(value.map{ GLfloat(GLint($0)) }, forUniform:uniform)
                 case let value as Float: shader.setValue(GLfloat(value), forUniform:uniform)
                 case let value as Int: shader.setValue(GLint(value), forUniform:uniform)
                 case let value as Color: shader.setValue(value, forUniform:uniform)

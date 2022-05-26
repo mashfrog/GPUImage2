@@ -209,7 +209,7 @@
 				TargetAttributes = {
 					BC0037B6195CA11B00B9D651 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = J2U2U9GBML;
+						DevelopmentTeam = 6CSF4KWCZY;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
@@ -446,10 +446,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J2U2U9GBML;
+				DEVELOPMENT_TEAM = 6CSF4KWCZY;
 				INFOPLIST_FILE = FilterShowcaseSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunsetlakesoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mashfrog.sunsetlakesoftware.FilterShowcase;
 				PRODUCT_NAME = FilterShowcase;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -463,10 +463,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J2U2U9GBML;
+				DEVELOPMENT_TEAM = 6CSF4KWCZY;
 				INFOPLIST_FILE = FilterShowcaseSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunsetlakesoftware.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mashfrog.sunsetlakesoftware.FilterShowcase;
 				PRODUCT_NAME = FilterShowcase;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
